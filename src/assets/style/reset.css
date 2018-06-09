@@ -1,0 +1,89 @@
+* {-webkit-box-sizing:border-box;box-sizing:border-box;}
+html {
+  color: #000;
+  font-family: PingFangSC-Regular,
+  Tahoma,
+  Arial,
+  Roboto,
+  "Droid Sans",
+  "Helvetica Neue",
+  "Droid Sans Fallback",
+  "Heiti SC",
+  sans-self;
+
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,form,input,button,textarea,p,th,td,strong{padding:0;margin:0;font-family:'Microsoft YaHei';}
+table{border-collapse:collapse;border-spacing:0;}
+img{border:none;outline: none;}
+a{text-decoration:none;color:inherit;outline:none;}
+a:hover{color: #000;}
+var,em,strong{font-style:normal;}
+em,strong,th,var{font-style:inherit;font-weight:inherit;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4{font-size:100%;font-weight:normal;}
+input,button,textarea,select,option{font-family:inherit; font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{font-size:100%;outline: none;border-radius: 0}
+textarea {resize: none;}
+
+input:disabled {
+  background: #fff;
+}
+
+/* 常用样式 */
+.clearfix:after {content:"\200B"; display:block; height:0; clear:both; }
+.clearfix {zoom:1;}
+
+.back_img {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.margin {
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+
+/* 设置层级 */
+.z-n-low {
+  z-index: -99999;
+}
+.z-n-middle {
+  z-index: -999999;
+}
+.z-n-high {
+  z-index: -9999999;
+}
+.z-p-low {
+  z-index: 99999;
+}
+.z-p-middle {
+  z-index: 999999;
+}
+.z-p-high {
+  z-index: 9999999;
+}
+
